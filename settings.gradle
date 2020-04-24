@@ -1,0 +1,5 @@
+rootProject.name='SwrvePushPlugin'
+//include ':app'
+include ':swrvepush-android'
+project(':swrvepush-android').projectDir = new File('swrvepush-android')
+
