@@ -15,15 +15,15 @@
   "platform": "android",
   "author_name": "Elias bou nader",
   "author_email": "elias.bounader@gotocme.com",
-  "manifest_version": "0.0.7",
+  "manifest_version": "0.0.8",
   "name": "ZappPushPluginSwrve",
   "description": "ZappPushPluginSwrve",
   "type": "push_provider",
   "identifier": "ZappPushPluginSwrve",
   "ui_builder_support": true,
   "screen": false,
-  "dependency_name": "com.applicaster:ZappAnalyticsPluginSwrve",
-  "dependency_version": "0.0.7",
+  "dependency_name": "com.applicaster:ZappPushPluginSwrve",
+  "dependency_version": "0.0.8",
   "whitelisted_account_ids": [
     "5af949534da8f300080050f9"
   ],
