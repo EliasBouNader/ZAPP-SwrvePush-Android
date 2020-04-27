@@ -7,6 +7,7 @@ import android.content.Context
 import android.content.pm.ApplicationInfo
 import android.os.Build
 import android.util.Log
+import com.applicaster.app.CustomApplication
 import com.applicaster.plugin_manager.push_plugin.PushContract
 import com.applicaster.plugin_manager.push_plugin.helper.PushPluginsType
 import com.applicaster.plugin_manager.push_plugin.listeners.PushTagLoadedI
@@ -16,6 +17,7 @@ import com.swrve.sdk.SwrveSDK
 import com.swrve.sdk.config.SwrveConfig
 
 class PushProvider : PushContract {
+
     override fun registerPushProvider(
         context: Context,
         registerID: String
@@ -62,7 +64,9 @@ class PushProvider : PushContract {
         SwrveSDK.createInstance(context.applicationContext as Application?, appId, apiKey, config)
     }
 
-    override fun setPluginParams(params: Map<*, *>?) {}
+    override fun setPluginParams(params: Map<*, *>?) {
+
+    }
     override fun addTagToProvider(
         context: Context,
         tag: List<String>,
