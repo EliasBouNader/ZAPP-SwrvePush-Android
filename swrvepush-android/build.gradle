@@ -30,7 +30,8 @@ buildscript {
         }
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:3.6.3'
+//        classpath 'com.android.tools.build:gradle:3.6.3'
+        classpath 'com.android.tools.build:gradle:3.5.3'
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
         classpath "org.jetbrains.kotlin:kotlin-android-extensions:$kotlin_version"
         classpath 'com.github.dcendents:android-maven-gradle-plugin:2.1'
@@ -89,7 +90,7 @@ dependencies {
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
     //implementation 'androidx.core:core-ktx:1.2.0'
 //    implementation 'com.swrve.sdk.android:swrve:6.3.0'
-    implementation 'com.swrve.sdk.android:swrve-firebase:6.3.0'
+    implementation 'com.swrve.sdk.android:swrve-firebase:7.0.0'
 
     // Applicaster SDK
     //def applicasterSDKPath = 'com.applicaster:applicaster-android-sdk:4.0.+'
